@@ -6,7 +6,13 @@ namespace TheMonsterKiller
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            Hunter VonRimmersmark = new Hunter("Erich", "Von Rimmersmark");
+
+            Mummy tuts = new Mummy();
+
+            VonRimmersmark.Ignite(tuts);
+
         }
     }
 }
