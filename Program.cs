@@ -13,6 +13,12 @@ namespace TheMonsterKiller
 
             VonRimmersmark.Ignite(tuts);
 
+            Vampire Dracula = new Vampire();
+            Wight MrUndead = new Wight();
+
+            VonRimmersmark.SplashWater(MrUndead);
+            VonRimmersmark.WieldSilver(Dracula);
+
         }
     }
 }

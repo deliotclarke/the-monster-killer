@@ -18,20 +18,20 @@ namespace TheMonsterKiller
             LastName = last;
         }
 
-        // public void SplashWater(Wight wight)
-        // {
-        //     wight.Douse();  // Kills with holy water
-        // }
+        public void SplashWater(Wight wight)
+        {
+            wight.Douse("Holy Water");  // Kills with holy water
+        }
 
         public void Ignite(Mummy mummy)
         {
             mummy.Burn("Fire");  // Kills with fire
         }
 
-        // public void WieldSilver(Vampire vamp)
-        // {
-        //     vamp.Stab();   // Stabs with silver knife
-        // }
+        public void WieldSilver(Vampire vamp)
+        {
+            vamp.Stab("Silver");   // Stabs with silver knife
+        }
 
         public override string ToString()
         {
